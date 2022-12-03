@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Gill Sans", sans-serif;
+  }
+  
+  .container {
+    padding: 40px 5%;
+  }
+  
+  .heading-text {
+    margin-bottom: 2rem;
+  }
+  
+  .photo-gallery {
+  /* add code here*/
+    display: flex;
+    gap: 20px;
+  }
+  
+  .photo-gallery .column {
+  /* add code here*/
+    flex-flow: wrap;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .photo-item img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* add code here: add a media query here */
+@media all and (max-width:768px){
+  .photo-gallery{
+      display:flex;
+      flex-flow:column wrap;
+      gap:20px;
+  
+  }
+}   
+
+  .photo-item {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .overlay {
+  /*add code here: 
+  You will need to use the following properties:
+    position
+    width
+    height
+    background-color: rgba(65, 65, 65, 0.313);
+    top
+    left
+    transform
+    transition: all 0.2s 0.1s ease-in-out;
+    color: rgb(255, 255, 255);
+    display
+    align-items
+    justify-content */
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color: rgba(65, 65, 65, 0.313);
+    top:0;
+    left:0;
+    transform:scale(0);
+    transition: all 0.2s 0.1s ease-in-out;
+    color: rgb(255, 255, 255);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  /* hover */
+  .photo-item:hover .overlay {
+    /*add code here: use a transform property */
+    transform:scale(1);
+  }
+  
