@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.A {
+    background-color: #FF6A6A;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px; 
+}
+
+.B {
+    background-color: #FFF4F4;
+    color: #FF6A6A;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+figure img {
+    width: 80%;
+}
+
+a {
+    color: #FF6A6A;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #BA4D4D;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+nav {
+    text-align: center;
+}
