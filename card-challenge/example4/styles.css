@@ -1,0 +1,50 @@
+body{
+    background-color: hsl(0, 100%, 71%);
+    font-family: "Poppins";
+}
+
+
+section{
+    background-color:hsl(0, 0%,100%);
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius:10px;
+    padding:20px 0; 
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size:15px;
+    font-weight:400;
+    color:hsl(0, 0%,25%);
+    width:90%;
+}
+
+
+a {
+    background:linear-gradient(to right, hsl(0, 100%, 71%), hsl(279, 49%,56%));
+    border:none;
+    border-radius:10px;
+    width:90%;
+    color:hsl(0, 0%,100%);
+    text-decoration: none;
+    font-weight:600;
+    font-size:15px;
+    text-align: center;
+    padding:10px 0;
+}
+
+img {
+    width:90%;
+    border-radius:10px;
+}
+
+
+
+

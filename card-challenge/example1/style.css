@@ -1,0 +1,43 @@
+/*
+- Red: hsl(0, 100%, 71%)
+- Purple: hsl(279, 49%, 56%)
+- Dark Gray: hsl(0, 0%, 25%)
+- White: hsl(0, 0%, 100%)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  width: 100vw;
+  height: 100vh;
+  background: hsl(0, 100%, 71%);
+  display: grid;
+  place-items: center;
+  font-family: poppins;
+}
+
+.container {
+  width: auto;
+  height: auto;
+  background: white; 
+  display: grid;
+  place-items: center;
+  border-radius: 15px;
+}
+
+.wrap{
+  margin: 2em;
+}
+
+button {
+  width: 100%; 
+  padding: 1em;
+  background-image: linear-gradient(45deg, hsl(0, 100%, 71%), hsl(279, 49%, 56%));
+  color: white;
+  font-size: 1em;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.pic1{
+  width: full;
+  border-radius: 10px;
+}
