@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script type="text/javascript" src="./js/main.js" defer></script>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body onload="loadSite()">
+    <div class="container">
+        <p>Aguito Weather</p>
+        <h1 id="temperature"></h1>
+        <p id="description"></p>
+        <h2 id="location"></h2>
+        <!-- tables -->
+        <div class="table-container">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>City</th>
+                <th>Temperature</th>
+                <th>Humidity</th>
+                <th>Pressure</th>
+                <th>Wind Speed</th>
+                <th>Wind Direction</th>
+                <th>Sunrise</th>
+                <th>Sunset</th>
+              </tr>
+            </thead>
+            <tbody id="table-body">
+              <tr>
+                <td id="data_city">London</td>
+                <td id="data_temperature">20</td>
+                <td id="data_humidity">20</td>
+                <td id="data_pressure">20</td>
+                <td id="data_wind_speed">20</td>
+                <td id="data_wind_direction">20</td>
+                <td id="data_sunrise">20</td>
+                <td id="data_sunset">20</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+ </body>
+</html>
