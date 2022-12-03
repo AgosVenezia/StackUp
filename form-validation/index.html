@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+	
+        <center>	<h2>Registration Form</h2> </center>
+      
+      <p id="p"> For your password, please ensure that it has <br>at least five characters.</p>
+      
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="Enter email" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+        
+            <div class="form-control">
+                <label for="username">Password</label>
+                <input type="password" placeholder="Enter password" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+        
+            <div class="form-control">
+                <label for="username">Confirm Password </label>
+                <input type="password" placeholder="Enter password again" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+        
+        <div class="form-control">
+                <label for="username">Enter Your StackUp username</label>
+                <input type="text" placeholder="Enter Your StackUp username here" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+        
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
