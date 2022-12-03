@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Timers</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script type="text/javascript" src="./js/script.js" defer></script>
+</head>
+<body onload="loadSite()">
+    <h1>Timers Mania</h1>
+    <caption>This Web-App allows you to create as many timers as you want. Built by Aguito.</caption>
+    <div id="controls">
+      <h2>Timers</h2>
+      <button class="timerButton" style="width:150px ;" onclick="newTimer(prompt('How many seconds?'))">+ New Timer</button>
+    </div>
+    <div id="timerContainer"></div>
+</body>
+</html>
