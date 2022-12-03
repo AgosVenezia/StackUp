@@ -1,0 +1,23 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: #FF6A6A;
+}
+
+img {
+    width: 100px;
+}
+
+#lastheading {
+    color: #FFB84B;
+}
+
+ul {
+    list-style-image: url(https://contribute.geeksforgeeks.org/wp-content/uploads/listitem-1.png);
+}
+
+#sum {
+    color: rgb(0,128,255);
+}
