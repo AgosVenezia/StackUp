@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study With Me!</title>
+  <script src="./js/main.js" defer></script>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body onload="loadBody()">
+  <div class="header">
+    <h1>Study with Me! by Aguito</h1>
+</div>
+ 
+  <div class="container">
+    <div class="newCards">
+      <h2>New Questions</h2>
+      <div class="formInnerContainer">
+        <label for="question">Question</label>
+        <input id="questionField" type="text" name="question">
+      </div>
+ 
+      <div class="formInnerContainer">
+        <label for="answer">Answer</label>
+        <input id="answerField" type="text" name="answer">
+      </div>
+      <button id="submit" onclick="handleSubmit()" >Submit</button>
+    </div>
+ 
+    <div id="card-container"></div>
+  </div>
+</body>
+</html>
