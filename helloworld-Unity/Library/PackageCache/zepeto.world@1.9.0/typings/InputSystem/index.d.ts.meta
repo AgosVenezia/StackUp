@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 7a823724a76c94e2d904e3f5c8976306
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 6017579db2e24758a8106d03d535e466, type: 3}
+  isAssemblyDeclarations: 1
+  assembly: Unity.InputSystem
+  generateAllTypes: 0
+  types:
+  - UnityEngine.InputSystem.InputActionAsset
+  - UnityEngine.InputSystem.InputAction
+  - UnityEngine.InputSystem.InputAction+CallbackContext
+  - UnityEngine.InputSystem.InputActionMap
+  - UnityEngine.InputSystem.PlayerInput
+  - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+  generateWrapper: 1
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: 
+  typescriptHash: 

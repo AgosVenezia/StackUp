@@ -1,0 +1,19 @@
+{
+	"name": "zepeto.world.common",
+	"scope": "zepeto",
+	"displayName": "ZEPETO.World.Common",
+	"version": "1.0.1",
+	"unity": "2020.3",
+	"description": "ZEPETO World Common Package\n\nThis package is for commonly used codes throughout the Zepeto environment.",
+	"keywords": [
+		"zepeto"
+	],
+	"category": "Unity",
+	"hideInEditor": false,
+	"author": {
+		"name": "ZEPETO",
+		"email": "support@zepeto.me",
+		"url": "https://zepeto.me/"
+	},
+	"commitId": "09db0855515ed2d5dcfd075a8b5b9598ee72efe4"
+}

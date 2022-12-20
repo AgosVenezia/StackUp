@@ -1,0 +1,26 @@
+{
+	"name": "zepeto.world.shared",
+	"scope": "zepeto",
+	"displayName": "ZEPETO.World.Shared",
+	"version": "1.5.0",
+	"unity": "2020.3",
+	"description": "Developer Kit for Zepeto World",
+	"keywords": [
+		"zepeto",
+		"script",
+		"javascript",
+		"world",
+		"v8"
+	],
+	"category": "Unity",
+	"hideInEditor": false,
+	"author": {
+		"name": "ZEPETO",
+		"email": "support@zepeto.me",
+		"url": "https://zepeto.me/"
+	},
+	"dependencies": {
+		"com.unity.editorcoroutines": "1.0.0"
+	},
+	"commitId": "de0bf141aad8bd4e5f35d736aac9bceb061ae6e5"
+}

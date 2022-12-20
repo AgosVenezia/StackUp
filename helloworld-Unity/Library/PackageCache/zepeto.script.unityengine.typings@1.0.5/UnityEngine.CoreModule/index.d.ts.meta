@@ -1,0 +1,56 @@
+fileFormatVersion: 2
+guid: fe0ab22b6c35548a08157cf3635b925f
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 6017579db2e24758a8106d03d535e466, type: 3}
+  isAssemblyDeclarations: 1
+  assembly: UnityEngine.CoreModule
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 1
+  overrideWrapperTypes: 1
+  wrapperTypes:
+  - UnityEngine.Object
+  - UnityEngine.GameObject
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - UnityEngine.RectTransform
+  - UnityEngine.Transform
+  - UnityEngine.Vector2
+  - UnityEngine.Vector3
+  - UnityEngine.Vector4
+  - UnityEngine.Quaternion
+  - UnityEngine.Mathf
+  - UnityEngine.Random
+  - UnityEngine.Time
+  - UnityEngine.Texture
+  - UnityEngine.Sprite
+  - UnityEngine.WaitForSeconds
+  - UnityEngine.Debug
+  - UnityEngine.LayerMask
+  - UnityEngine.Resources
+  - UnityEngine.Events.UnityEvent
+  - UnityEngine.Events.UnityEvent<float>
+  - UnityEngine.Events.UnityEvent<int>
+  - UnityEngine.Events.UnityEvent<bool>
+  - UnityEngine.Events.UnityEvent<string>
+  - UnityEngine.Events.UnityEvent<object>
+  - UnityEngine.WaitUntil
+  - UnityEngine.WaitWhile
+  - UnityEngine.Graphics
+  - UnityEngine.Playables.PlayableAsset
+  - UnityEngine.AnimationCurve
+  WrapperFilters:
+  - UnityEngine.MonoBehaviour@runInEditMode
+  - UnityEngine.Texture@imageContentsHash
+  wrapperOutputDirectory: Generated
+  compiledResult: 
+  typescriptHash: 
+  onlyWriteTrigger: 0

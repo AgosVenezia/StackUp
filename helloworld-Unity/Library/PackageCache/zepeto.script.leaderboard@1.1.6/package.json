@@ -1,0 +1,20 @@
+{
+	"name": "zepeto.script.leaderboard",
+	"scope": "zepeto",
+	"version": "1.1.6",
+	"displayName": "ZEPETO.Script.Leaderboard",
+	"description": "ZEPETO Leaderboard package",
+	"unity": "2020.3",
+	"keywords": [
+		"zepeto",
+		"leaderboard"
+	],
+	"category": "Unity",
+	"hideInEditor": false,
+	"author": {
+		"name": "Zepeto",
+		"email": "support@zepeto.me",
+		"url": "https://zepeto.me/"
+	},
+	"commitId": "a13a600e3d3b97c46bd7b09d93e391bcfe40b7a7"
+}

@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 00842697468bc4277b742718d6c20365
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 6017579db2e24758a8106d03d535e466, type: 3}
+  isAssemblyDeclarations: 1
+  assembly: ZEPETO.World.Shared
+  generateAllTypes: 0
+  types:
+  - ZEPETO.World.WorldService
+  - ZEPETO.World.WorldUtils
+  - ZEPETO.World.ZepetoScreenOrientation
+  - ZEPETO.World.CustomRematchComponent
+  - ZEPETO.World.MatchmakingKeyValue
+  generateWrapper: 1
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: 
+  typescriptHash: 
+  onlyWriteTrigger: 0

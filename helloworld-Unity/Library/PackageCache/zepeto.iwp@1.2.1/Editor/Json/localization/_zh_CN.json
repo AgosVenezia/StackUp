@@ -1,0 +1,12 @@
+{
+	"gs_item_inactive":"这是无法购买的商品",
+	"gs_item_purchase":"购买商品",
+	"gs_item_purchase_balance":"购买商品后的余额为{0}",
+	"gs_item_purchase_button":"购买",
+	"gs_item_purchase_charge":"哎呀~钻石不够了！",
+	"gs_item_purchase_charge_guide":"要充值{0}后再购买吗？",
+	"gs_item_purchase_charge_later":"请充值钻石后再次尝试。在主页左上方我的钱包中可以充值钻石。",
+	"gs_item_purchase_success":"购买成功！",
+	"COMMON_CONFIRM":"确认",
+	"COMMON_CONFIRM_CANCLE":"取消"
+}

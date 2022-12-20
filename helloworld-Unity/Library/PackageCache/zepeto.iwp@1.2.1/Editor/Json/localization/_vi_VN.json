@@ -1,0 +1,12 @@
+{
+	"gs_item_inactive":"Vật phẩm không khả dụng.",
+	"gs_item_purchase":"Mua Vật Phẩm",
+	"gs_item_purchase_balance":"Số dư tài khoản của bạn sau khi mua sẽ là {0}.",
+	"gs_item_purchase_button":"Mua",
+	"gs_item_purchase_charge":"Ôi không, bạn không có đủ Zem!",
+	"gs_item_purchase_charge_guide":"Bạn có muốn nạp {0} và mua không?",
+	"gs_item_purchase_charge_later":"Nạp lại Zem và thử lại. Bạn có thể nạp Zem tại shop credit tại góc trên bên trái của màn hình home.",
+	"gs_item_purchase_success":"Mua hoàn tất!",
+	"COMMON_CONFIRM":"OK",
+	"COMMON_CONFIRM_CANCLE":"Hủy"
+}

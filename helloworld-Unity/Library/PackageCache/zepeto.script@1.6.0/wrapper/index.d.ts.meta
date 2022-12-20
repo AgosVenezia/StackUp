@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: 9c19b65291b674c279f49a25249e8a45
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 6017579db2e24758a8106d03d535e466, type: 3}
+  isAssemblyDeclarations: 1
+  assembly: ZEPETO.Script
+  generateAllTypes: 0
+  types:
+  - ZEPETO.Script.ZepetoScriptBehaviour
+  - ZEPETO.Script.ZepetoScriptPackage
+  - ZEPETO.Script.ZepetoScriptBehaviourExtensions
+  - ZEPETO.Script.ZepetoScriptPackageManager
+  - ZEPETO.Script.ZepetoScriptableObject
+  - ZEPETO.Script.StreamingAssets
+  - ZEPETO.Script.Extensions.ZepetoScriptContextInitializer
+  - ZEPETO.Script.ZepetoScriptBuildManifest
+  - ZEPETO.Script.GameObjectExtension
+  generateWrapper: 1
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: 
+  typescriptHash: 

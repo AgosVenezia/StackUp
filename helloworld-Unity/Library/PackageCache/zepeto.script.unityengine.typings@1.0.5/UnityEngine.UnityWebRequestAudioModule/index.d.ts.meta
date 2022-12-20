@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f92bf91d436174c098de48c86492bdf6
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 6017579db2e24758a8106d03d535e466, type: 3}
+  isAssemblyDeclarations: 1
+  assembly: UnityEngine.UnityWebRequestAudioModule
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  wrapperOutputDirectory: Generated

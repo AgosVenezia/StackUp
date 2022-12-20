@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 86ed26e132b5d4a30a52ae75dfc563fc
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 6017579db2e24758a8106d03d535e466, type: 3}
+  isAssemblyDeclarations: 1
+  assembly: UnityEngine.UI
+  generateAllTypes: 0
+  types:
+  - System.Collections.Generic.List<UnityEngine.EventSystems.EventTrigger+Entry>
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: 
+  typescriptHash: 

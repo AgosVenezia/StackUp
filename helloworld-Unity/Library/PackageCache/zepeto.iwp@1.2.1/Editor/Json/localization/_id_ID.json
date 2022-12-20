@@ -1,0 +1,12 @@
+{
+	"gs_item_inactive":"Item tidak tersedia.",
+	"gs_item_purchase":"Beli Item",
+	"gs_item_purchase_balance":"Saldo kamu setelah transaksi ini akan menjadi {0}.",
+	"gs_item_purchase_button":"Beli",
+	"gs_item_purchase_charge":"Oh tidak, kamu tidak memiliki cukup Permata!",
+	"gs_item_purchase_charge_guide":"Apakah kamu ingin ditagihkan {0} dan membeli?",
+	"gs_item_purchase_charge_later":"Isi ulang Permata dan coba lagi. Kamu dapat mengisi ualang Permata di toko kredit di kiri atas layar beranda.",
+	"gs_item_purchase_success":"Pembelian selesai!",
+	"COMMON_CONFIRM":"OK",
+	"COMMON_CONFIRM_CANCLE":"Batalkan"
+}

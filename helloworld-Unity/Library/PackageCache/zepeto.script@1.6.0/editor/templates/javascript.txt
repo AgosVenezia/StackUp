@@ -1,0 +1,13 @@
+/*
+@name #SCRIPTNAME#
+@property float floatValue
+@property string stringValue
+@property UnityEngine.Transform transformValue
+*/
+const ZEPETO = require("ZEPETO.Script");
+module.exports = class #SCRIPTNAME# extends ZEPETO.ZepetoScriptBehaviour {
+
+    Start() {
+        console.log(this.stringValue);
+    }
+}

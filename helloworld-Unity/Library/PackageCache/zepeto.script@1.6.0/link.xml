@@ -1,0 +1,4 @@
+<linker>
+  <assembly fullname="ZEPETO.Script" preserve="all"/>
+  <assembly fullname="ZEPETO.Script.Generated" preserve="all"/>
+</linker>

@@ -1,0 +1,39 @@
+fileFormatVersion: 2
+guid: 60d2c5a8f51e54d48b45602dae9a218e
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 6017579db2e24758a8106d03d535e466, type: 3}
+  isAssemblyDeclarations: 1
+  assembly: ZEPETO.Multiplay
+  generateAllTypes: 0
+  types:
+  - ZEPETO.Multiplay.ZepetoMultiplay<ZEPETO.Multiplay.DynamicSchema>
+  - ZEPETO.Multiplay.Room<ZEPETO.Multiplay.DynamicSchema>
+  - ZEPETO.Multiplay.MapSchema<ZEPETO.Multiplay.DynamicSchema>
+  - ZEPETO.Multiplay.ArraySchema<ZEPETO.Multiplay.DynamicSchema>
+  - ZEPETO.Multiplay.ZepetoDynamicMultiplay
+  - ZEPETO.Multiplay.ZepetoMultiplayBase
+  - ZEPETO.Multiplay.SchemaBase
+  - ZEPETO.Multiplay.DynamicMapSchema
+  - ZEPETO.Multiplay.DynamicArraySchema
+  - ZEPETO.Multiplay.DynamicSchema
+  - ZEPETO.Multiplay.RoomBase
+  - ZEPETO.Multiplay.UserInfo
+  - ZEPETO.Multiplay.RoomData
+  - ZEPETO.Multiplay.RoomErrorEvent
+  - ZEPETO.Multiplay.RoomLeaveEvent
+  - ZEPETO.Multiplay.RequestedRoomData
+  generateWrapper: 1
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: 
+  typescriptHash: 
+  onlyWriteTrigger: 0

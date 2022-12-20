@@ -1,0 +1,124 @@
+{
+	"id": "@zepeto/sandbox@1.1.13",
+	"name": "@zepeto/sandbox",
+	"version": "1.1.13",
+	"size": 2167360,
+	"unpackedSize": 5560963,
+	"shasum": "79b530ae43561100e80fd72e04108f9324d898f1",
+	"integrity": "sha512-lDrH8etnFRPjhZmO8iDkeDfa1h1PR+WMeGd3qsl4fFOyOrcnQPpYUcvaUIwcTRqvCzlnBo2FmExfYk+by800GA==",
+	"filename": "zepeto-sandbox.tgz",
+	"files": [
+		{
+			"path": "README.md",
+			"size": 235,
+			"mode": 420
+		},
+		{
+			"path": "bootstrap.js",
+			"size": 3366,
+			"mode": 493
+		},
+		{
+			"path": "bootstrap.jsc",
+			"size": 5027200,
+			"mode": 420
+		},
+		{
+			"path": "cli.jsc",
+			"size": 336328,
+			"mode": 420
+		},
+		{
+			"path": "dist/bridge.js",
+			"size": 29197,
+			"mode": 420
+		},
+		{
+			"path": "dist/bytenode/cli.js",
+			"size": 4467,
+			"mode": 493
+		},
+		{
+			"path": "dist/bytenode/index.js",
+			"size": 5707,
+			"mode": 420
+		},
+		{
+			"path": "dist/contextify.js",
+			"size": 34304,
+			"mode": 420
+		},
+		{
+			"path": "dist/events.js",
+			"size": 28143,
+			"mode": 420
+		},
+		{
+			"path": "dist/fixasync.js",
+			"size": 2784,
+			"mode": 420
+		},
+		{
+			"path": "dist/read.sh",
+			"size": 4214,
+			"mode": 420
+		},
+		{
+			"path": "dist/sandbox.js",
+			"size": 17478,
+			"mode": 420
+		},
+		{
+			"path": "dist/setup-node-sandbox.js",
+			"size": 11479,
+			"mode": 420
+		},
+		{
+			"path": "dist/setup-sandbox.js",
+			"size": 12441,
+			"mode": 420
+		},
+		{
+			"path": "package.json",
+			"size": 1558,
+			"mode": 420
+		},
+		{
+			"path": "template/.vscode/launch.json",
+			"size": 513,
+			"mode": 420
+		},
+		{
+			"path": "template/index.d.ts",
+			"size": 40283,
+			"mode": 420
+		},
+		{
+			"path": "template/index.ts",
+			"size": 290,
+			"mode": 420
+		},
+		{
+			"path": "template/package.json",
+			"size": 282,
+			"mode": 420
+		},
+		{
+			"path": "template/schemas.json",
+			"size": 33,
+			"mode": 420
+		},
+		{
+			"path": "template/SchemaTypes/index.d.ts",
+			"size": 153,
+			"mode": 420
+		},
+		{
+			"path": "template/tsconfig.json",
+			"size": 508,
+			"mode": 420
+		}
+	],
+	"entryCount": 22,
+	"bundled": []
+}

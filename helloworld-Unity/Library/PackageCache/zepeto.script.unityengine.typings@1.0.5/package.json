@@ -1,0 +1,18 @@
+{
+	"name": "zepeto.script.unityengine.typings",
+	"scope": "zepeto",
+	"displayName": "ZEPETO.Script.UnityEngine.Typings",
+	"version": "1.0.5",
+	"unity": "2020.3",
+	"description": "ZEPETO Script UnityEngine Typings",
+	"keywords": [
+		"zepeto",
+		"script",
+		"javascript",
+		"v8"
+	],
+	"samples": [],
+	"category": "Unity",
+	"hideInEditor": false,
+	"commitId": "5ff006724a44e395841f15faf11fb8b1e315683a"
+}

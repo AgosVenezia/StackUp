@@ -1,0 +1,22 @@
+{
+	"name": "zepeto.chat",
+	"scope": "zepeto",
+	"displayName": "ZEPETO.Chat",
+	"version": "0.0.1",
+	"unity": "2020.3",
+	"description": "In World Chat for Zepeto Script",
+	"keywords": [
+		"zepeto",
+		"script",
+		"javascript",
+		"analytics"
+	],
+	"category": "Unity",
+	"hideInEditor": false,
+	"author": {
+		"name": "ZEPETO",
+		"email": "support@zepeto.me",
+		"url": "https://zepeto.me/"
+	},
+	"commitId": "92552592bdf18efebd417ed25931ee3342c0e851"
+}

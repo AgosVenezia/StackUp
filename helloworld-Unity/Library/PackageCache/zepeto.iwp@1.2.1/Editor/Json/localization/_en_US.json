@@ -1,0 +1,12 @@
+{
+	"gs_item_inactive":"Item not available.",
+	"gs_item_purchase":"Buy Item",
+	"gs_item_purchase_balance":"Your balance after this transaction will be {0}.",
+	"gs_item_purchase_button":"Buy",
+	"gs_item_purchase_charge":"Oh no, you don't have enough Zems!",
+	"gs_item_purchase_charge_guide":"Do you want to charge {0} and purchase?",
+	"gs_item_purchase_charge_later":"Recharge Zems and try again. You can charge Zems at the credit shop on the top left of the home screen.",
+	"gs_item_purchase_success":"Purchase complete!",
+	"COMMON_CONFIRM":"OK",
+	"COMMON_CONFIRM_CANCLE":"Cancel"
+}

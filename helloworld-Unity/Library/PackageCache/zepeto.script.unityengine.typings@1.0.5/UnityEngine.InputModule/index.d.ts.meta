@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 4594b04a9e0534e1792586d2a137307a
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 6017579db2e24758a8106d03d535e466, type: 3}
+  isAssemblyDeclarations: 1
+  assembly: UnityEngine.InputModule
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  wrapperOutputDirectory: Generated

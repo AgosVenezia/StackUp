@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 94a20b0c79c284645b46a6b2cf5aeb6b
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 6017579db2e24758a8106d03d535e466, type: 3}
+  isAssemblyDeclarations: 1
+  assembly: UnityEngine.AudioModule
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 1
+  overrideWrapperTypes: 1
+  wrapperTypes:
+  - UnityEngine.AudioSource
+  - UnityEngine.AudioClip
+  wrapperOutputDirectory: Generated
+  compiledResult: 
+  references: []
+  typescriptHash: 

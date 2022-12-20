@@ -1,0 +1,5 @@
+<linker>
+  <assembly fullname="ZEPETO.World" preserve="all"/>
+  <assembly fullname="ZEPETO.World.Generated" preserve="all"/>
+  <assembly fullname="ZEPETO.Generated" preserve="all"/>
+</linker>

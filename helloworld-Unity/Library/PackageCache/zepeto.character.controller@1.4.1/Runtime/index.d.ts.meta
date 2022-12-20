@@ -1,0 +1,98 @@
+fileFormatVersion: 2
+guid: 8ee49e7ae7552410488c6752126673aa
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 6017579db2e24758a8106d03d535e466, type: 3}
+  isAssemblyDeclarations: 1
+  assembly: ZEPETO.Character.Controller
+  generateAllTypes: 0
+  types:
+  - ZEPETO.Character.Controller.ZepetoPlayers
+  - ZEPETO.Character.Controller.LocalPlayer
+  - ZEPETO.Character.Controller.ZepetoPlayer
+  - ZEPETO.Character.Controller.ZepetoCharacter
+  - ZEPETO.Character.Controller.ZepetoPlayerControl
+  - ZEPETO.Character.Controller.ZepetoCameraControl
+  - ZEPETO.Character.Controller.CharacterData
+  - ZEPETO.Character.Controller.ControllerData
+  - ZEPETO.Character.Controller.FloatingUIData
+  - ZEPETO.Character.Controller.CameraData
+  - ZEPETO.Character.Controller.CameraData+EnhancedOptionData
+  - ZEPETO.Character.Controller.CharacterInfo
+  - ZEPETO.Character.Controller.CharacterShadow
+  - ZEPETO.Character.Controller.SpawnInfo
+  - ZEPETO.Character.Controller.ZepetoCamera
+  - ZEPETO.Character.Controller.ZepetoCamera+EnhancedOption
+  - ZEPETO.Character.Controller.ZepetoScreenStick
+  - ZEPETO.Character.Controller.ZepetoScreenControl
+  - ZEPETO.Character.Controller.ZepetoScreenButton
+  - ZEPETO.Character.Controller.ZepetoScreenTouchpad
+  - ZEPETO.Character.Controller.UIZepetoPlayerControl
+  - ZEPETO.Character.Controller.Utils
+  - ZEPETO.Character.Controller.InputHelper
+  - ZepetoInputControl
+  - ZepetoInputControl+PlayerActions
+  - ZepetoInputControl+CameraActions
+  - ZepetoInputControl+UIActions
+  - ZepetoInputControl+IPlayerActions
+  - ZepetoInputControl+ICameraActions
+  - ZepetoInputControl+IUIActions
+  - ZEPETO.Character.Controller.Setting
+  - ZEPETO.Character.Controller.EventReceiver
+  - ZEPETO.Character.Controller.CharacterStateMachine
+  - ZEPETO.Character.Controller.StateMachine<ZEPETO.Character.Controller.CameraState>
+  - ZEPETO.Character.Controller.StateMachine<ZEPETO.Character.Controller.CharacterState>
+  - ZEPETO.Character.Controller.State<ZEPETO.Character.Controller.CameraState>
+  - ZEPETO.Character.Controller.State<ZEPETO.Character.Controller.CharacterState>
+  - ZEPETO.Character.Controller.Transition<ZEPETO.Character.Controller.CameraState>
+  - ZEPETO.Character.Controller.Transition<ZEPETO.Character.Controller.CharacterState>
+  - ZEPETO.Character.Controller.TransitionBase<ZEPETO.Character.Controller.CameraState>
+  - ZEPETO.Character.Controller.TransitionBase<ZEPETO.Character.Controller.CharacterState>
+  - ZEPETO.Character.Controller.CameraState
+  - ZEPETO.Character.Controller.CharacterState
+  - ZEPETO.Character.Controller.StandardControl.V1.CustomMotionData
+  - ZEPETO.Character.Controller.StandardControl.V2.CustomMotionData
+  - ZEPETO.Character.Controller.StandardControl.V2.MotionState
+  - UnityEngine.Events.UnityEvent<UnityEngine.Vector2>
+  - UnityEngine.Events.UnityEvent<ZEPETO.Character.Controller.CameraState>
+  - UnityEngine.Events.UnityEvent<ZEPETO.Character.Controller.CharacterState>
+  - UnityEngine.Events.UnityEvent<ZEPETO.Character.Controller.CharacterState, ZEPETO.Character.Controller.CharacterState>
+  - UnityEngine.Events.UnityEvent<ZEPETO.Character.Controller.CameraState, ZEPETO.Character.Controller.CameraState>
+  - UnityEngine.Events.UnityEvent<ZEPETO.Character.Controller.Transition<ZEPETO.Character.Controller.CharacterState>>
+  - UnityEngine.Events.UnityEvent<ZEPETO.Character.Controller.Transition<ZEPETO.Character.Controller.CameraState>>
+  generateWrapper: 1
+  overrideWrapperTypes: 0
+  wrapperTypes:
+  - ZEPETO.Character.Controller.CameraData
+  - ZEPETO.Character.Controller.ZepetoPlayers
+  - ZEPETO.Character.Controller.LocalPlayer
+  - ZEPETO.Character.Controller.ZepetoPlayer
+  - ZEPETO.Character.Controller.ZepetoCharacter
+  - ZEPETO.Character.Controller.ZepetoCamera
+  - ZEPETO.Character.Controller.SpawnInfo
+  - ZEPETO.Character.Controller.ZepetoScreenStick
+  - ZEPETO.Character.Controller.ZepetoScreenTouchpad
+  - ZEPETO.Character.Controller.CharacterState
+  - ZEPETO.Character.Controller.StateMachine<ZEPETO.Character.Controller.CharacterState>
+  - ZEPETO.Character.Controller.State<ZEPETO.Character.Controller.CharacterState>
+  - ZEPETO.Character.Controller.Transition<ZEPETO.Character.Controller.CharacterState>
+  - ZEPETO.Character.Controller.TransitionBase<ZEPETO.Character.Controller.CharacterState>
+  - UnityEngine.Events.UnityEvent<UnityEngine.Vector2>
+  - UnityEngine.Events.UnityEvent<ZEPETO.Character.Controller.CharacterState>
+  - UnityEngine.Events.UnityEvent<ZEPETO.Character.Controller.CharacterState, ZEPETO.Character.Controller.CharacterState>
+  - UnityEngine.Events.UnityEvent<ZEPETO.Character.Controller.Transition<ZEPETO.Character.Controller.CharacterState>>
+  WrapperFilters:
+  - ZEPETO.Character.Controller.ZepetoCharacter@SetMeta
+  - ZEPETO.Character.Controller.ZepetoCharacter@GetMeta
+  - ZEPETO.Character.Controller.ControllerData@verticalDefaultController
+  - ZEPETO.Character.Controller.ControllerData@horizontalDefaultController
+  wrapperOutputDirectory: Generated
+  compiledResult: 
+  typescriptHash: 
+  onlyWriteTrigger: 0

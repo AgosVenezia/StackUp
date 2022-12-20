@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 52b51e0010cb44c999e9df89cc6735fe
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 6017579db2e24758a8106d03d535e466, type: 3}
+  isAssemblyDeclarations: 1
+  assembly: UnityEngine.PhysicsModule
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 1
+  overrideWrapperTypes: 1
+  wrapperTypes:
+  - UnityEngine.Physics
+  - UnityEngine.Collider
+  - UnityEngine.Rigidbody
+  wrapperOutputDirectory: Generated
+  compiledResult: 
+  references: []
+  typescriptHash: 

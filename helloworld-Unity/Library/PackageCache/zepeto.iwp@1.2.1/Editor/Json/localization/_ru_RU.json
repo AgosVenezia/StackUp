@@ -1,0 +1,12 @@
+{
+	"gs_item_inactive":"Предмет недоступен.",
+	"gs_item_purchase":"Купить предмет",
+	"gs_item_purchase_balance":"Ваш баланс после этой транзакции составит {0}.",
+	"gs_item_purchase_button":"Купить",
+	"gs_item_purchase_charge":"О нет, у вас недостаточно Zem!",
+	"gs_item_purchase_charge_guide":"Вы хотите пополнить {0} и купить?",
+	"gs_item_purchase_charge_later":"Пополните Zem и попробуйте снова. Вы можете пополнить Zem в кредитном магазине в левом верхнем углу главного экрана.",
+	"gs_item_purchase_success":"Покупка завершена!",
+	"COMMON_CONFIRM":"ОК",
+	"COMMON_CONFIRM_CANCLE":"отмена"
+}

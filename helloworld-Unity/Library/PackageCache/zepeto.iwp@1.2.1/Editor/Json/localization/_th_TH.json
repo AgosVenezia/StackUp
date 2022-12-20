@@ -1,0 +1,12 @@
+{
+	"gs_item_inactive":"ไอเทมนี้ไม่สามารถซื้อได้",
+	"gs_item_purchase":"ซื้อไอเทม",
+	"gs_item_purchase_balance":"มียอดคงเหลือหลังจากซื้อ {0}",
+	"gs_item_purchase_button":"ซื้อ",
+	"gs_item_purchase_charge":"อ๊ะ ZEM ไม่เพียงพอ!",
+	"gs_item_purchase_charge_guide":"ต้องการเติม {0} และซื้อหรือไม่?",
+	"gs_item_purchase_charge_later":"กรุณาลองใหม่อีกครั้งหลังจากเติม ZEM สามารถเติม ZEM ได้ที่ร้านค้าเครดิตด้านบนซ้ายของหน้าโฮม",
+	"gs_item_purchase_success":"ซื้อสำเร็จ!",
+	"COMMON_CONFIRM":"ยืนยัน",
+	"COMMON_CONFIRM_CANCLE":"ยกเลิก"
+}

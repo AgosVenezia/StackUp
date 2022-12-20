@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 69219af095b0240a19bfd469f8e6afcf
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 6017579db2e24758a8106d03d535e466, type: 3}
+  isAssemblyDeclarations: 1
+  assembly: UnityEngine.TerrainModule
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 1
+  overrideWrapperTypes: 1
+  wrapperTypes:
+  - UnityEngine.Terrain
+  WrapperFilters:
+  - UnityEngine.Terrain@bakeLightProbesForTrees
+  - UnityEngine.Terrain@deringLightProbesForTrees
+  wrapperOutputDirectory: Generated
+  compiledResult: 
+  references: []
+  typescriptHash: 

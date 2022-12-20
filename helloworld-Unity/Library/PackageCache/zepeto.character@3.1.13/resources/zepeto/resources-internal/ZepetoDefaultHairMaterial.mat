@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ZepetoDefaultHairMaterial
+  m_Shader: {fileID: 4800000, guid: bd86762cbaadd4ed892f5a446e603bf6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyeMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HighlightTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrisTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LogLut:
+        m_Texture: {fileID: 2800000, guid: 03ac8a3fe58c148deaeaedb6213c4167, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LookupDirect:
+        m_Texture: {fileID: 2800000, guid: 9aabe1077bf5c4effbd83489951592af, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 94f64311b5ce84bb19f472d84c4f2f52, type: 3}
+        m_Scale: {x: 5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 738ab8f89f58347cdb58bd7daee4b9a7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1, y: 1}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularTex:
+        m_Texture: {fileID: 2800000, guid: ca0f3dbdb163e4ed0a13f8bc905cc802, type: 3}
+        m_Scale: {x: 5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AnisoOffset: 0
+    - _BumpScale: 1
+    - _Cutoff: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _ExposureEV: 1.319508
+    - _Gloss: 128
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _IrisBlack: 0
+    - _IrisBlack2: 2
+    - _IrisSize: 30
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalPower: 0.75
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PrimaryShift: -0.01
+    - _PupilBlur: 30
+    - _PupilSize: 70
+    - _RimH: 0.11
+    - _RimPower: 1.292
+    - _RimS: 0.177
+    - _RimV: -0.29
+    - _SecondaryShift: -0.28
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpecularMultiplier: 10
+    - _SpecularMultiplier2: 10
+    - _SpecularTexUV2: 0
+    - _SrcBlend: 1
+    - _TintH: -0.017
+    - _TintPower: 0.292
+    - _TintS: 0
+    - _TintV: 0
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.81960785, g: 0.58431375, b: 0.49019608, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HighlightOffset: {r: 0, g: 0, b: 1, a: 1}
+    - _IrisColor: {r: 0, g: 0, b: 0, a: 0}
+    - _LogLut_Params: {r: 0.0009765625, g: 0.03125, b: 31, a: 1}
+    - _PupilColor: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 0.21960784, g: 0.17254902, b: 0.11764706, a: 1}
+    - _ScleraColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 0.2784314, g: 0.19215687, b: 0.19607843, a: 1}
+    - _SpecularColor2: {r: 0.13333334, g: 0.09019608, b: 0.09411765, a: 1}
+    - _TintColor: {r: 0.41568628, g: 0.29803923, b: 0.19215687, a: 1}

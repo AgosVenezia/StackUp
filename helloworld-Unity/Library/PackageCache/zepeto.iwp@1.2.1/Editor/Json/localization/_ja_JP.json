@@ -1,0 +1,12 @@
+{
+	"gs_item_inactive":"このアイテムは販売終了しました",
+	"gs_item_purchase":"アイテム購入",
+	"gs_item_purchase_balance":"アイテム購入後、残高は{0}です。",
+	"gs_item_purchase_button":"購入",
+	"gs_item_purchase_charge":"あっ、Zemが不足しています！",
+	"gs_item_purchase_charge_guide":"{0}チャージ後に購入しましょう。",
+	"gs_item_purchase_charge_later":"Zemチャージ後にもう1度お試しください。Zemはホーム画面の左上クレジットよりチャージできます。",
+	"gs_item_purchase_success":"購入完了!",
+	"COMMON_CONFIRM":"確認",
+	"COMMON_CONFIRM_CANCLE":"キャンセル"
+}

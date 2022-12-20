@@ -1,0 +1,4 @@
+<linker>
+  <assembly fullname="ZEPETO.Character.Controller"  preserve="all"/>
+  <assembly fullname="ZEPETO.Character.Controller.Generated"  preserve="all"/>
+</linker>

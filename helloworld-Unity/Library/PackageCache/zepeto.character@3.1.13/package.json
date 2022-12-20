@@ -1,0 +1,26 @@
+{
+	"name": "zepeto.character",
+	"scope": "zepeto",
+	"displayName": "ZEPETO.Character",
+	"version": "3.1.13",
+	"unity": "2020.3",
+	"description": "ZEPETO Character SDK",
+	"keywords": [
+		"zepeto"
+	],
+	"category": "Unity",
+	"hideInEditor": false,
+	"author": {
+		"name": "ZEPETO",
+		"email": "support@zepeto.me",
+		"url": "https://zepeto.me/"
+	},
+	"dependencies": {
+		"zepeto.asset": "1.0.11",
+		"com.unity.modules.particlesystem": "1.0.0",
+		"com.unity.modules.physics": "1.0.0",
+		"com.unity.modules.audio": "1.0.0",
+		"com.unity.modules.video": "1.0.0"
+	},
+	"commitId": "c680938a9443538a8f23800718b325df7b89c46e"
+}

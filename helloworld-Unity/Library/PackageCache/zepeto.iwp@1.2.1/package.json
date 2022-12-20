@@ -1,0 +1,23 @@
+{
+	"name": "zepeto.iwp",
+	"scope": "zepeto",
+	"displayName": "ZEPETO.IWP",
+	"version": "1.2.1",
+	"unity": "2020.3",
+	"description": "In World Purchase for Zepeto Script",
+	"keywords": [
+		"zepeto",
+		"script",
+		"javascript",
+		"iap",
+		"iwp"
+	],
+	"category": "Unity",
+	"hideInEditor": false,
+	"author": {
+		"name": "ZEPETO",
+		"email": "support@zepeto.me",
+		"url": "https://zepeto.me/"
+	},
+	"commitId": "e5ef673d1a25b3ebecdb89a39b220c1b4888cfbc"
+}

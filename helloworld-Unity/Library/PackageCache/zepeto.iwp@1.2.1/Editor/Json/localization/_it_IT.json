@@ -1,0 +1,12 @@
+{
+	"gs_item_inactive":"Oggetto non disponibile.",
+	"gs_item_purchase":"Acquista oggetto",
+	"gs_item_purchase_balance":"A seguito della transazione il tuo saldo sarà di {0}.",
+	"gs_item_purchase_button":"Acquista",
+	"gs_item_purchase_charge":"Che peccato! Non hai abbastanza Zem!",
+	"gs_item_purchase_charge_guide":"Vuoi ricaricare l'importo richiesto di {0} ZEM per effettuare l'acquisto?",
+	"gs_item_purchase_charge_later":"Effettua una ricarica di Zem e riprova. Puoi ricaricare gli Zem nel negozio di crediti in alto a sinistra della home page.",
+	"gs_item_purchase_success":"Acquisto completato!",
+	"COMMON_CONFIRM":"OK",
+	"COMMON_CONFIRM_CANCLE":"Annulla"
+}

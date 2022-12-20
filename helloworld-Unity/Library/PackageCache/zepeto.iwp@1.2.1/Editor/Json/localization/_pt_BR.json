@@ -1,0 +1,12 @@
+{
+	"gs_item_inactive":"Item não disponível.",
+	"gs_item_purchase":"Comprar Item",
+	"gs_item_purchase_balance":"Seu saldo após essa transação será {0}.",
+	"gs_item_purchase_button":"Comprar",
+	"gs_item_purchase_charge":"Oh não, você não tem Zems suficiente!",
+	"gs_item_purchase_charge_guide":"Deseja recarregar {0} para poder comprar?",
+	"gs_item_purchase_charge_later":"Recarregue Zems e tente novamente. Você pode recarregar seus Zems na loja de crédito no canto superior esquerdo da tela inicial.",
+	"gs_item_purchase_success":"Compra feita!",
+	"COMMON_CONFIRM":"OK",
+	"COMMON_CONFIRM_CANCLE":"Cancelar"
+}
