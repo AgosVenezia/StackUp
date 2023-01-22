@@ -1,9 +1,0 @@
-import { ZepetoScriptBehaviour } from 'ZEPETO.Script'
-
-export default class #SCRIPTNAME# extends ZepetoScriptBehaviour {
-
-    Start() {    
-
-    }
-
-}
