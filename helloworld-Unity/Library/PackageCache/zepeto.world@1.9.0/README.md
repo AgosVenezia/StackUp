@@ -1,2 +1,0 @@
-# zepeto-world-sdk
-#  

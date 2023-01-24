@@ -1,4 +1,0 @@
-<linker>
-  <assembly fullname="ZEPETO.Multiplay.Script" preserve="all"/>
-  <assembly fullname="ZEPETO.Multiplay.Generated" preserve="all"/>
-</linker>
