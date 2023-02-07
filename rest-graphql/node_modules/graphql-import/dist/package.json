@@ -1,0 +1,23 @@
+{
+  "name": "graphql-import",
+  "version": "1.0.2",
+  "peerDependencies": {
+    "graphql": "^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0"
+  },
+  "repository": "git@github.com:ardatan/graphql-import.git",
+  "license": "MIT",
+  "main": "index.cjs.js",
+  "module": "index.esm.js",
+  "typings": "index.d.ts",
+  "typescript": {
+    "definition": "index.d.ts"
+  },
+  "dependencies": {
+    "@graphql-toolkit/code-file-loader": "0.10.3",
+    "@graphql-toolkit/core": "0.10.3",
+    "@graphql-toolkit/graphql-file-loader": "0.10.3",
+    "@graphql-toolkit/json-file-loader": "0.10.3",
+    "@graphql-toolkit/schema-merging": "0.10.3",
+    "@graphql-toolkit/url-loader": "0.10.3"
+  }
+}

@@ -1,0 +1,29 @@
+type Query {
+ nftsByContract: NFTS!
+}
+
+type Query {
+ nftsTransfersByContract: TRANSFERS!
+}
+
+type NFTS {
+ total: Int!
+ result: [NFT_META]
+}
+
+type NFT_META {
+ token_uri: String!
+ name: String!
+ metadata: String!
+}
+
+type TRANSFERS {
+ total: Int!
+ result: [TRANSFER_FIELDS]
+}
+
+type TRANSFER_FIELDS {
+ block_number: String!
+ transaction_hash: String!
+ transaction_index: String!
+}
