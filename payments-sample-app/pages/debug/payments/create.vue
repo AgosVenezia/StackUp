@@ -1,0 +1,233 @@
+<template>
+  <v-layout>
+    <v-row>
+      <v-col cols="12" md="4">
+        <v-form>
+          <v-text-field v-model="formData.sourceId" label="Source Account Id" />
+          <v-select
+            v-model="formData.sourceType"
+            :items="sourceType"
+            label="Source Account Type"
+          />
+          <v-text-field v-model="formData.amount" label="Amount" />
+
+          <v-checkbox
+            v-if="formData.sourceType != 'ach'"
+            v-model="formData.autoCapture"
+            label="Auto capture"
+          />
+
+          <v-select
+            v-if="formData.sourceType == 'card'"
+            v-model="formData.verification"
+            :items="verificationMethods"
+            label="Verification Method"
+          />
+
+          <v-text-field
+            v-if="showCvv"
+            v-model="formData.cvv"
+            :label="`${cvvLabel}`"
+          />
+
+          <v-text-field
+            v-if="formData.sourceType != 'payment_token'"
+            v-model="formData.verificationSuccessUrl"
+            label="VerificationSuccessUrl"
+          />
+
+          <v-text-field
+            v-if="formData.sourceType != 'payment_token'"
+            v-model="formData.verificationFailureUrl"
+            label="VerificationFailureUrl"
+          />
+
+          <v-text-field
+            v-model="formData.description"
+            hint="Payment Description"
+            label="Description"
+          />
+
+          <v-text-field
+            v-model="formData.channel"
+            hint="Channel"
+            label="Channel"
+          />
+
+          <v-text-field
+            v-model="formData.phoneNumber"
+            hint="Phone number of the user in E.164 format"
+            label="Phone"
+          />
+
+          <v-text-field v-model="formData.email" label="Email" />
+
+          <v-btn
+            depressed
+            class="mb-7"
+            color="primary"
+            :loading="loading"
+            @click.prevent="makeApiCall()"
+          >
+            Make api call
+          </v-btn>
+        </v-form>
+      </v-col>
+      <v-col cols="12" md="8">
+        <RequestInfo
+          :url="requestUrl"
+          :payload="payload"
+          :response="response"
+        />
+      </v-col>
+    </v-row>
+    <ErrorSheet
+      :error="error"
+      :show-error="showError"
+      @onChange="onErrorSheetClosed"
+    />
+  </v-layout>
+</template>
+
+<script lang="ts">
+import { Component, Vue, Watch } from 'nuxt-property-decorator'
+import { mapGetters } from 'vuex'
+import { v4 as uuidv4 } from 'uuid'
+import openPGP from '@/lib/openpgp'
+import { CreateCardPaymentPayload } from '@/lib/paymentsApi'
+import RequestInfo from '@/components/RequestInfo.vue'
+import ErrorSheet from '@/components/ErrorSheet.vue'
+
+@Component({
+  components: {
+    RequestInfo,
+    ErrorSheet,
+  },
+  computed: {
+    ...mapGetters({
+      payload: 'getRequestPayload',
+      response: 'getRequestResponse',
+      requestUrl: 'getRequestUrl',
+      isMarketplace: 'isMarketplace',
+    }),
+  },
+})
+export default class CreatePaymentClass extends Vue {
+  isMarketplace!: boolean
+  showCvv = true
+  cvvLabel = 'CVV'
+  formData = {
+    sourceId: '',
+    sourceType: 'card', // Default to card
+    verification: 'cvv',
+    amount: '0.00',
+    autoCapture: true,
+    cvv: '',
+    description: '',
+    channel: '',
+    verificationSuccessUrl: '',
+    verificationFailureUrl: '',
+    phoneNumber: '',
+    email: '',
+  }
+
+  verificationMethods = ['none', 'cvv', 'three_d_secure']
+  sourceType = ['card', 'ach', 'payment_token']
+  required = [(v: string) => !!v || 'Field is required']
+  error = {}
+  loading = false
+  showError = false
+
+  mounted() {
+    if (this.isMarketplace) {
+      return this.$nuxt.error({
+        statusCode: 404,
+        message: 'This endpoint is not available for marketplaces',
+      })
+    }
+  }
+
+  @Watch('formData.verification', { immediate: true })
+  onChildChanged(val: string) {
+    if (val === 'none') {
+      this.showCvv = false
+    }
+    if (val === 'cvv') {
+      this.showCvv = true
+      this.cvvLabel = 'CVV'
+    }
+    if (val === 'three_d_secure') {
+      this.showCvv = true
+      this.cvvLabel = 'CVV (Optional)'
+    }
+  }
+
+  @Watch('formData.sourceType', { immediate: true })
+  onSourceTypeChanged(val: string) {
+    if (val === 'card') {
+      this.formData.verification = 'cvv'
+    } else {
+      this.formData.verification = 'none'
+    }
+  }
+
+  onErrorSheetClosed() {
+    this.error = {}
+    this.showError = false
+  }
+
+  async makeApiCall() {
+    this.loading = true
+    const amountDetail = {
+      amount: this.formData.amount,
+      currency: 'USD',
+    }
+    const sourceDetails = {
+      id: this.formData.sourceId,
+      type: this.formData.sourceType,
+    }
+    const payload: CreateCardPaymentPayload = {
+      idempotencyKey: uuidv4(),
+      autoCapture: this.formData.autoCapture,
+      amount: amountDetail,
+      source: sourceDetails,
+      description: this.formData.description,
+      verificationSuccessUrl: this.formData.verificationSuccessUrl,
+      verificationFailureUrl: this.formData.verificationFailureUrl,
+      metadata: {
+        email: this.formData.email,
+        phoneNumber: this.formData.phoneNumber,
+        sessionId: 'xxx',
+        ipAddress: '172.33.222.1',
+      },
+      channel: this.formData.channel,
+    }
+
+    if (this.formData.sourceType === 'card') {
+      payload.verification = this.formData.verification
+    }
+
+    try {
+      if (
+        this.formData.verification === 'cvv' ||
+        (this.formData.verification === 'three_d_secure' &&
+          this.formData.cvv !== '')
+      ) {
+        const { cvv } = this.formData
+        const cardDetails = { cvv }
+
+        const publicKey = await this.$paymentsApi.getPCIPublicKey()
+        const encryptedData = await openPGP.encrypt(cardDetails, publicKey)
+        payload.encryptedData = encryptedData.encryptedMessage
+        payload.keyId = encryptedData.keyId
+      }
+      await this.$paymentsApi.createPayment(payload)
+    } catch (error) {
+      this.error = error
+      this.showError = true
+    } finally {
+      this.loading = false
+    }
+  }
+}
+</script>
