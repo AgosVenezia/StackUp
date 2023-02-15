@@ -1,3 +1,7 @@
+/* 
+A lucky number is a number with a 6 or an 8 in it. It is unlucky if it has neither a 6 or 8 in, or it has a 6 and an 8 in! Create a program that lists how many lucky numbers there are between two numbers, L and R. Do this without using any strings.
+*/
+
 function countLuckyNumbers(L, R) {
     let count = 0;
     for (let i = L; i <= R; i++) {
