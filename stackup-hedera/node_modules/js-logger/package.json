@@ -1,0 +1,49 @@
+{
+  "name": "js-logger",
+  "version": "1.6.1",
+  "license": "MIT",
+  "description": "Lightweight, unobtrusive, configurable JavaScript logger",
+  "author": "Jonny Reeves (http://jonnyreeves.co.uk)",
+  "homepage": "http://github.com/jonnyreeves/js-logger",
+  "typings": "./src/logger.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonnyreeves/js-logger.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jonnyreeves/js-logger/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/jonnyreeves/js-logger/blob/master/MIT-LICENSE.txt"
+    }
+  ],
+  "files": [
+    "/src",
+    "CHANGELOG",
+    "MIT-LICENSE.txt",
+    "README"
+  ],
+  "main": "src/logger.js",
+  "scripts": {
+    "lint": "jshint --exclude=src/*.min.js src/*.js test-src/*.js",
+    "test": "npm run test:unit && npm run test:tsd",
+    "test:unit": "node-qunit-phantomjs ./test-src/index.html",
+    "test:tsd": "ts-node -r tsconfig-paths/register test-src/typescript-consumer/index.ts",
+    "build": "npm run build:version && npm run build:minify",
+    "build:minify": "uglifyjs src/logger.js --mangle --compress -o src/logger.min.js",
+    "build:version": "cross-env replace -s 'VERSION = \"[^\"]+\"' \"VERSION = \\\"$npm_package_version\\\"\" src/logger.js"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "jshint": "^2.9.6",
+    "node-qunit-phantomjs": "^2.0.0",
+    "replace": "^1.0.0",
+    "rimraf": "^2.6.2",
+    "ts-node": "^7.0.1",
+    "tsconfig-paths": "^3.7.0",
+    "typescript": "^3.1.3",
+    "uglify-js": "^3.4.9"
+  }
+}
