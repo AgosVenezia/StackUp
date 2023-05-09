@@ -1,3 +1,40 @@
+"""
+Challenge to read dates from command line and find the zodiac of those birthdays with Python.
+For example, if I run the command $ python test.py 28-02-2016 29-02-2002, I should get
+Your birthday is on 28/02/2016
+Your Zodiac is Pisces
+
+29-02-2002 is an invalid Date! Your birthday does not exist ;-;
+
+Here you can see that people whose birthday is on 28th Feb are Pisces. The birthday 29th Feb 2002 can not exist hence it is considered an invalid date.
+Rules:
+ - The arguments are always in the string format: day-month-year where year is always 4 characters with first character between 1 and 9.
+ - You don't have to print out word-to-word statements same as mine but you must print a valid birthday in format of date/month/year and must print the original string if it's invalid
+ - If the date is invalid, DO NOT print the zodiac so be careful while coding
+ - If their birthday is today, you must print Happy Birthday!
+
+Here are some test cases
+$ python test.py 28-02-2016 29-02-2002 10-11-1998 13-14-2020 31-11-2009 7-5-2023
+
+Your birthday is on 28/02/2016
+Your Zodiac is Pisces
+
+29-02-2002 is an invalid Date! Your birthday does not exist ;-;
+
+Your birthday is on 10/11/1998
+Your Zodiac is Scorpio
+
+13-14-2020 is an invalid Date! Your birthday does not exist ;-;
+
+31-11-2009 is an invalid Date! Your birthday does not exist ;-;
+
+Your birthday is on 07/05/2023
+Your Zodiac is Tauros
+Happy Birthday!
+
+Bonus: You can also implement a way to read dates from the files (filename as the only argument here)
+"""
+
 import sys
 from datetime import datetime
 
