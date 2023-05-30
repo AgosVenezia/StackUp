@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x7E8870223E922dFcf41D3536dB9035Ac8D0301A2",
+  "SCAN_LINK": "https://mumbai.polygonscan.com/address/0x7E8870223E922dFcf41D3536dB9035Ac8D0301A2",
+  "NETWORK": {
+    "NAME": "Polygon Mumbai",
+    "SYMBOL": "MATIC",
+    "ID": 80001
+  },
+  "NFT_NAME": "PolyAliens",
+  "SYMBOL": "PA",
+  "MAX_SUPPLY": 50,
+  "WEI_COST": 50000000000000000,
+  "DISPLAY_COST": 0.05,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opensea Testnets",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/aguito-polyaliens",
+  "SHOW_BACKGROUND": false
+}
