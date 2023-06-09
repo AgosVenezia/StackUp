@@ -1,0 +1,65 @@
+export const data = [
+    {
+      "name": "River Plate Campeón 2018 [1]",
+      "url": "/images/river1.jpg",
+      "description": "River Plate Campeón Copa Libertadores 2018",
+      "date": "2018-12-09",
+      "type": "image/jpg",
+    },
+    {
+      "name": "River Plate Campeón 2018 [2]",
+      "url": "/images/river2.jpg",
+      "description": "River Plate Campeón Copa Libertadores 2018",
+      "date": "2018-12-09",
+      "type": "image/jpg",
+    },
+    {
+      "name": "River Plate Campeón 2018 [3]",
+      "url": "/images/river3.jpg",
+      "description": "River Plate Campeón Copa Libertadores 2018",
+      "date": "2018-12-09",
+      "type": "image/jpg",
+    },
+    {
+      "name": "River Plate Campeón 2018 [4]",
+      "url": "/images/river4.jpg",
+      "description": "River Plate Campeón Copa Libertadores 2018",
+      "date": "2018-12-09",
+      "type": "image/jpg",
+    },
+    {
+      "name": "River Plate Campeón 2018 [5]",
+      "url": "/images/river5.jpg",
+      "description": "River Plate Campeón Copa Libertadores 2018",
+      "date": "2018-12-09",
+      "type": "image/jpg",
+    },
+    {
+      "name": "River Plate Campeón 2018 [6]",
+      "url": "/images/river6.jpg",
+      "description": "River Plate Campeón Copa Libertadores 2018",
+      "date": "2018-12-09",
+      "type": "image/jpg",
+    },
+    {
+      "name": "River Plate Campeón 2018 [7]",
+      "url": "/images/river7.jpg",
+      "description": "River Plate Campeón Copa Libertadores 2018",
+      "date": "2018-12-09",
+      "type": "image/jpg",
+    },
+    {
+      "name": "River Plate Campeón 2018 [8]",
+      "url": "/images/river8.jpg",
+      "description": "River Plate Campeón Copa Libertadores 2018",
+      "date": "2018-12-09",
+      "type": "image/jpg",
+    },
+    {
+      "name": "River Plate Campeón 2018 [9]",
+      "url": "/images/river9.jpg",
+      "description": "River Plate Campeón Copa Libertadores 2018",
+      "date": "2018-12-09",
+      "type": "image/jpg",
+    }
+  ]
