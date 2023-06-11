@@ -1,0 +1,26 @@
+[
+	{
+	  "post_ID": 0,
+	  "post_title": "How to create a button in react?",
+	  "post_content": "Do i need to use any npm library?",
+	  "poster_address": "0xc9fad626d00b062a4afb70ac02b2a8afc7f396ea",
+	  "comments": [
+		{
+		  "comment_address": "",
+		  "comment_content": ""
+		}
+	  ]
+	},
+	{
+	  "post_ID": 1,
+	  "post_title": "How to kill a process on a port on ubuntu?",
+	  "post_content": "What is the command i should run?",
+	  "poster_address": "0xc9fad626d00b062a4afb70ac02b2a8afc7f396ea",
+	  "comments": [
+		{
+		  "comment_address": "",
+		  "comment_content": ""
+		}
+	  ]
+	}
+  ]

@@ -1,0 +1,148 @@
+[
+	{
+		"inputs": [],
+		"name": "CID",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_CID",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "_postAddress",
+				"type": "address"
+			}
+		],
+		"name": "addComment",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_forumCID",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_imageCID",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_imageName",
+				"type": "string"
+			}
+		],
+		"name": "createPost",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getPosts",
+		"outputs": [
+			{
+				"internalType": "address[]",
+				"name": "_posts",
+				"type": "address[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address[]",
+				"name": "_postList",
+				"type": "address[]"
+			}
+		],
+		"name": "getPostsData",
+		"outputs": [
+			{
+				"internalType": "address[]",
+				"name": "posterAddress",
+				"type": "address[]"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "numberOfComments",
+				"type": "uint256[]"
+			},
+			{
+				"internalType": "string",
+				"name": "postCID",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "postIDs",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "posts",
+		"outputs": [
+			{
+				"internalType": "contract Post",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
