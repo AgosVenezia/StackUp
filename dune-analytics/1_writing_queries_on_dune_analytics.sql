@@ -25,6 +25,7 @@ LIMIT 10;
 
 
 #Write Your First Query on Dune
+#https://dune.com/aguito/my-first-dashboard
 
 #Query - Latest price of Ethereum
 SELECT price as eth_price
