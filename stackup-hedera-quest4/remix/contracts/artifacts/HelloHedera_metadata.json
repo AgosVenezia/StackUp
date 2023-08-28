@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "message_",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "get_message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "message_",
+						"type": "string"
+					}
+				],
+				"name": "set_message",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/HelloHedera.sol": "HelloHedera"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/HelloHedera.sol": {
+			"keccak256": "0x2d0a1460915399756a44b27b7a972db7e70b62383985a18c2d662ddd06db745e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c7d4410fff773a69414b50b8d937567137dee1e07923d765bf8fa516a0cfa640",
+				"dweb:/ipfs/QmSPKR49MmXqMCMGDSfQnXwxTuFTuFuueuaabrLCL8V61X"
+			]
+		}
+	},
+	"version": 1
+}
