@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+  padding: 0px 3rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  display: inline-block;
+  height: 100%;
+  margin: 1rem;
+  padding: 1rem;
+  position: relative;
+  width: 80vw;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: calc(80vw - 340px);
+}
+
+.title {
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 250px;
+  text-align: left;
+}
+
+.desc {
+  display: inline-block;
+  float: left;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.acc-container {
+  display: flex;
+  float: right;
+}
+
+.acc-score {
+  padding: 14px 16px;
+  margin: 0;
+  color: grey;
+}
+
+.return-btn {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.return-btn:hover {
+  background-color: #da190b;
+}
+
+.return-btn:disabled {
+  background-color: #f44336;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.connect-btn {
+  margin: 10px 14px;
+}
+
+.primary-btn {
+  background-color: #2196f3;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  float: right;
+}
+
+.primary-btn:hover {
+  background-color: #0b7dda;
+}
+
+.primary-btn:disabled {
+  background-color: #2196f3;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0rem 2rem;
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+.nav-item {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  color: #2196f3;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  align-self: center;
+  height: 80vh;
+  display: flex;
+  padding: 0px 3rem;
+}
