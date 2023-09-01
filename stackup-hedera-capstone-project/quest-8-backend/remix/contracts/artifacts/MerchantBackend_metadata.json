@@ -1,0 +1,687 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "tokenAddress",
+						"type": "address"
+					}
+				],
+				"name": "CreatedToken",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "int64[]",
+						"name": "serialNumbers",
+						"type": "int64[]"
+					}
+				],
+				"name": "MintedToken",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "int256",
+						"name": "response",
+						"type": "int256"
+					}
+				],
+				"name": "Response",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "nftAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "int64",
+						"name": "serial",
+						"type": "int64"
+					}
+				],
+				"name": "borrowing",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "symbol",
+						"type": "string"
+					}
+				],
+				"name": "createNFT",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ftAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					}
+				],
+				"name": "getTokenExpiryInfo",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "responseCode",
+						"type": "int256"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint32",
+								"name": "second",
+								"type": "uint32"
+							},
+							{
+								"internalType": "address",
+								"name": "autoRenewAccount",
+								"type": "address"
+							},
+							{
+								"internalType": "uint32",
+								"name": "autoRenewPeriod",
+								"type": "uint32"
+							}
+						],
+						"internalType": "struct IHederaTokenService.Expiry",
+						"name": "expiryInfo",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "grantTokenKyc",
+				"outputs": [
+					{
+						"internalType": "int64",
+						"name": "responseCode",
+						"type": "int64"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "isKyc",
+				"outputs": [
+					{
+						"internalType": "int64",
+						"name": "responseCode",
+						"type": "int64"
+					},
+					{
+						"internalType": "bool",
+						"name": "kycGranted",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lockupAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes[]",
+						"name": "metadata",
+						"type": "bytes[]"
+					}
+				],
+				"name": "mintNFT",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					}
+				],
+				"name": "pauseToken",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "responseCode",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "nftAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "int64",
+						"name": "serial",
+						"type": "int64"
+					}
+				],
+				"name": "returning",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "revokeTokenKyc",
+				"outputs": [
+					{
+						"internalType": "int64",
+						"name": "responseCode",
+						"type": "int64"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "int64",
+						"name": "amount",
+						"type": "int64"
+					}
+				],
+				"name": "scoring",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					}
+				],
+				"name": "unpauseToken",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "responseCode",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint32",
+								"name": "second",
+								"type": "uint32"
+							},
+							{
+								"internalType": "address",
+								"name": "autoRenewAccount",
+								"type": "address"
+							},
+							{
+								"internalType": "uint32",
+								"name": "autoRenewPeriod",
+								"type": "uint32"
+							}
+						],
+						"internalType": "struct IHederaTokenService.Expiry",
+						"name": "expiryInfo",
+						"type": "tuple"
+					}
+				],
+				"name": "updateTokenExpiryInfo",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "responseCode",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "symbol",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "treasury",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "memo",
+								"type": "string"
+							},
+							{
+								"internalType": "bool",
+								"name": "tokenSupplyType",
+								"type": "bool"
+							},
+							{
+								"internalType": "int64",
+								"name": "maxSupply",
+								"type": "int64"
+							},
+							{
+								"internalType": "bool",
+								"name": "freezeDefault",
+								"type": "bool"
+							},
+							{
+								"components": [
+									{
+										"internalType": "uint256",
+										"name": "keyType",
+										"type": "uint256"
+									},
+									{
+										"components": [
+											{
+												"internalType": "bool",
+												"name": "inheritAccountKey",
+												"type": "bool"
+											},
+											{
+												"internalType": "address",
+												"name": "contractId",
+												"type": "address"
+											},
+											{
+												"internalType": "bytes",
+												"name": "ed25519",
+												"type": "bytes"
+											},
+											{
+												"internalType": "bytes",
+												"name": "ECDSA_secp256k1",
+												"type": "bytes"
+											},
+											{
+												"internalType": "address",
+												"name": "delegatableContractId",
+												"type": "address"
+											}
+										],
+										"internalType": "struct IHederaTokenService.KeyValue",
+										"name": "key",
+										"type": "tuple"
+									}
+								],
+								"internalType": "struct IHederaTokenService.TokenKey[]",
+								"name": "tokenKeys",
+								"type": "tuple[]"
+							},
+							{
+								"components": [
+									{
+										"internalType": "uint32",
+										"name": "second",
+										"type": "uint32"
+									},
+									{
+										"internalType": "address",
+										"name": "autoRenewAccount",
+										"type": "address"
+									},
+									{
+										"internalType": "uint32",
+										"name": "autoRenewPeriod",
+										"type": "uint32"
+									}
+								],
+								"internalType": "struct IHederaTokenService.Expiry",
+								"name": "expiry",
+								"type": "tuple"
+							}
+						],
+						"internalType": "struct IHederaTokenService.HederaToken",
+						"name": "tokenInfo",
+						"type": "tuple"
+					}
+				],
+				"name": "updateTokenInfo",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "responseCode",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"getTokenExpiryInfo(address)": {
+					"params": {
+						"token": "The token address"
+					},
+					"returns": {
+						"expiryInfo": "The expiry info of the token",
+						"responseCode": "The response code for the status of the request. SUCCESS is 22."
+					}
+				},
+				"grantTokenKyc(address,address)": {
+					"params": {
+						"account": "The account address to grant kyc",
+						"token": "The token address"
+					},
+					"returns": {
+						"responseCode": "The response code for the status of the request. SUCCESS is 22."
+					}
+				},
+				"isKyc(address,address)": {
+					"params": {
+						"account": "The account address associated with the token",
+						"token": "The token address to check"
+					},
+					"returns": {
+						"kycGranted": "True if `account` has kyc granted for `token`",
+						"responseCode": "The response code for the status of the request. SUCCESS is 22."
+					}
+				},
+				"pauseToken(address)": {
+					"params": {
+						"token": "The token address to be paused"
+					},
+					"returns": {
+						"responseCode": "The response code for the status of the request. SUCCESS is 22."
+					}
+				},
+				"revokeTokenKyc(address,address)": {
+					"params": {
+						"account": "The account address to revoke kyc",
+						"token": "The token address"
+					},
+					"returns": {
+						"responseCode": "The response code for the status of the request. SUCCESS is 22."
+					}
+				},
+				"unpauseToken(address)": {
+					"params": {
+						"token": "The token address to be unpaused"
+					},
+					"returns": {
+						"responseCode": "The response code for the status of the request. SUCCESS is 22."
+					}
+				},
+				"updateTokenExpiryInfo(address,(uint32,address,uint32))": {
+					"params": {
+						"token": "The token address"
+					},
+					"returns": {
+						"responseCode": "The response code for the status of the request. SUCCESS is 22."
+					}
+				},
+				"updateTokenInfo(address,(string,string,address,string,bool,int64,bool,(uint256,(bool,address,bytes,bytes,address))[],(uint32,address,uint32)))": {
+					"params": {
+						"token": "The token address",
+						"tokenInfo": "The hedera token info to update token with"
+					},
+					"returns": {
+						"responseCode": "The response code for the status of the request. SUCCESS is 22."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"getTokenExpiryInfo(address)": {
+					"notice": "Operation to get token expiry info"
+				},
+				"grantTokenKyc(address,address)": {
+					"notice": "Operation to grant kyc to token account"
+				},
+				"isKyc(address,address)": {
+					"notice": "Query if token account has kyc granted"
+				},
+				"pauseToken(address)": {
+					"notice": "Operation to pause token"
+				},
+				"revokeTokenKyc(address,address)": {
+					"notice": "Operation to revoke kyc to token account"
+				},
+				"unpauseToken(address)": {
+					"notice": "Operation to unpause token"
+				},
+				"updateTokenExpiryInfo(address,(uint32,address,uint32))": {
+					"notice": "Operation to update token expiry info"
+				},
+				"updateTokenInfo(address,(string,string,address,string,bool,int64,bool,(uint256,(bool,address,bytes,bytes,address))[],(uint32,address,uint32)))": {
+					"notice": "Operation to update token info"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/stackup-hedera-capstone.sol": "MerchantBackend"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/stackup-hedera-capstone.sol": {
+			"keccak256": "0x141f17a169f4e6b37613c8ea324ece86397d50fe9cc2a0b302b15ef3fc552792",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8203bdc9c400555dfdead3ac9b72f85802242302899ce71d9d711b2bd3ebf0d4",
+				"dweb:/ipfs/QmV1SQ2wdTRpooboiypkJ4nCEwa22QLyHkAdUou31ibyp8"
+			]
+		},
+		"https://github.com/hashgraph/hedera-smart-contracts/blob/v0.2.0/contracts/hts-precompile/ExpiryHelper.sol": {
+			"keccak256": "0x3150d37980e98a44321db698f48b60a1524148430a8a0d0834384fe930d73c3a",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://7bc64280edb76f4ee24f57cc27f78a79ac1e399730b11559847d304dfb72ec66",
+				"dweb:/ipfs/Qmf7JsXjkd8iBPBcJSJGvD2VnHpTphEJLaUspB6mM7F5MY"
+			]
+		},
+		"https://github.com/hashgraph/hedera-smart-contracts/blob/v0.2.0/contracts/hts-precompile/FeeHelper.sol": {
+			"keccak256": "0x426666b4a145ffd4b91658068f4498820622d4803a421aac66ab49ad81812d79",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://6beae44fd7aa3d6bd2f323f8abb332ea3c9bb18a497787a7660188c73aff8ef2",
+				"dweb:/ipfs/QmZ2MpfjTjcDZcNaVokpe2o2hDSA7CN6ZgknirTwvdQXK8"
+			]
+		},
+		"https://github.com/hashgraph/hedera-smart-contracts/blob/v0.2.0/contracts/hts-precompile/HederaResponseCodes.sol": {
+			"keccak256": "0x9af70d38d34a234475b792a23c59f8cae63bf9d3407d0fb0a3112a40ce25627b",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://90d2abceb9a6f0244395d92abcad6669f5a4696fb876079271fbc4c32b7752f7",
+				"dweb:/ipfs/QmaKsVGmmcEwj6rcBmvbdKL213Seq8HwZTXf1DYnoaSELZ"
+			]
+		},
+		"https://github.com/hashgraph/hedera-smart-contracts/blob/v0.2.0/contracts/hts-precompile/HederaTokenService.sol": {
+			"keccak256": "0x7103c43fb9624b86fcc7c33ba6db8e62f551d7be869e1048e90f63ed95129cbe",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://abc44180e050f6d02a8d2c7c5cef2265507ebef0b5afdef0f3b5fab54c5b068d",
+				"dweb:/ipfs/QmTrq6nbxaRJqYwQXVdMvwgLZ8mZiiXpjSHciSv3MMihms"
+			]
+		},
+		"https://github.com/hashgraph/hedera-smart-contracts/blob/v0.2.0/contracts/hts-precompile/IHederaTokenService.sol": {
+			"keccak256": "0x8d12fa2214ebab2d594e40af5f3bc26eae0f10d57f93a518676b9c7a131cc306",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://562dbeee166e533eedf05e5e3062e26f457015aea96f0e134af9b5da9d900c73",
+				"dweb:/ipfs/QmZc3PNoyq7koQCZogMZ5cjZt5z55fieKfVEKdnQws57c6"
+			]
+		},
+		"https://github.com/hashgraph/hedera-smart-contracts/blob/v0.2.0/contracts/hts-precompile/KeyHelper.sol": {
+			"keccak256": "0x354c1037bbe37858ba288f1310a3e24c92628f3810df7db8958b51e7bfe2a93e",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://7093374f35a52d4c5886feed34c149811eefa31ec7cef97a0f23973713399181",
+				"dweb:/ipfs/QmcfL1N1xA7abK14bgLaFLzUDgYiuxXkkxXtXhyiBATMtK"
+			]
+		}
+	},
+	"version": 1
+}
