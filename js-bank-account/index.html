@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bank Account Management</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="./index.js" defer></script>
+</head>
+<body>
+  <h1>Bank Account Management</h1>
+  <h3>By Aguito, for StackUp.</h3>
+  <div class="container">
+    <div class="switcher_container">
+      <select id="switcher">
+        <option value="deposit">Deposit</option>
+        <option value="withdraw">Withdraw</option>
+        <option value="checkBalance">Check Balance</option>
+      </select>
+      <input type="number" name="amount" placeholder="Amount">
+    </div>
+    <div class="buttons_container">
+      <button id="depositButton" style="display: none">Deposit</button>
+      <button id="withdrawButton" style="display: none">Withdraw</button>
+      <button id="checkBalanceButton" style="display: none">Check Balance</button>
+    </div>
+    <span id="balance">Balance: <span id="balanceAmount">1000</span></span>
+  </div>
+</body>
+</html>
