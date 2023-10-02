@@ -1,0 +1,17 @@
+{
+ "id": 1,
+ "image": "https://cyan-continuing-tyrannosaurus-524.mypinata.cloud/ipfs/QmdHkhxJvTLC5viry6FyBnGgLQpYhoE9wiLXTaFJppm1C7",
+ "token_id": "1",
+ "background_color": null,
+ "animation_url": null,
+ "youtube_url": null,
+ "name": "My First NFT",
+ "description": "This NFT is my first zkEVM NFT created on Immutable",
+ "external_url": null,
+ "attributes": [
+  {
+   "trait_type": "Rarity",
+   "value": "Unique"
+  }
+ ]
+}

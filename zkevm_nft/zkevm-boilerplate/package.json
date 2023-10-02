@@ -1,0 +1,41 @@
+{
+  "name": "@imtbl/zkevm-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate Hardhat project for EVM smart contract development in Solidity",
+  "main": "",
+  "scripts": {
+    "clean": "npx hardhat clean",
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy:goerli": "npx hardhat run scripts/deploy.ts --network goerli",
+    "deploy:zkevm": "npx hardhat run scripts/deploy.ts --network immutableZkevmTestnet",
+    "deploy:by-id:zkevm": "npx hardhat run scripts/by-id/deploy.ts --network immutableZkevmTestnet"
+  },
+  "author": "Immutable",
+  "license": "MIT",
+  "dependencies": {
+    "@imtbl/zkevm-contracts": "latest",
+    "@openzeppelin/contracts": "^4.8.1",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.12.7",
+    "solidity-bits": "^0.4.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "@typechain/ethers-v5": "^10.2.0",
+    "@typechain/hardhat": "^6.1.5",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": ">=9.1.0",
+    "chai": "^4.2.0",
+    "hardhat-dependency-compiler": "^1.1.3",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.1",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.0"
+  }
+}
