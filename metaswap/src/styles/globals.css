@@ -1,0 +1,58 @@
+html,
+body {
+  padding: 0;
+  margin: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+h1 {
+  color:rgb(127, 24, 211);
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.connectWallet {
+
+  background: rgb(122, 53, 232);
+  padding: 10px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 150px;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  right: 2%;
+  border-radius: 5px;
+}
+
+.connectWallet:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+}
+
+span {
+  padding: 2vh 2vw;
+}
+
+#acc_name {
+  position: absolute;
+  right: 0;
+}
+
+#logo {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+#swapcom {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
